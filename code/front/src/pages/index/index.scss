@@ -1,0 +1,21 @@
+.index {
+  height: 1334px;
+  position: relative;
+  .searchBar {
+    width: 96%;
+    position: fixed;
+    top: 4px;
+    left: 2%;
+    height: 80px;
+    background: transparent;
+  }
+  .mainTabs {
+    height: 100%;
+    padding-top: 90px;
+    box-sizing: border-box;
+    overflow: hidden;
+    .at-tabs__header {
+      height: 90px;
+    }
+  }
+}

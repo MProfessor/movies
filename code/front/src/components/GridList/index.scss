@@ -1,0 +1,22 @@
+.scrollview {
+  background: #fff;
+  .at-col {
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    .cover {
+      width: 236px;
+      height: 400px;
+    }
+    .title {
+      width: 100%;
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 26px;
+      color: #333;
+      font-weight: bolder;
+    }
+  }
+}
